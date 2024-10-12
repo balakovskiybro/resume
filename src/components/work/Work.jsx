@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section>
       <div className="works__item">
-        <a href="resume/1/index.html" target="_blank"><img src={work} className="works__img" alt="" /></a>
+        <a href="1/index.html" target="_blank"><img src={work} className="works__img" alt="" /></a>
         <div className="works__body">
           <h5 className="works__subtitle">Цель:</h5>
           <p className="works__text">
