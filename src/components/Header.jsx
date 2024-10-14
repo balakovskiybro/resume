@@ -1,19 +1,15 @@
+import Button from "./Button/Button";
+
 export default function Header() {
-
-  // function customScrollFunction(id, top) {
-  //   document.getElementById(id).addEventListener("click", () => {
-  //     window.scrollTo({
-  //       top,
-  //       left: 0,
-  //       behavior: "smooth",
-  //     });
-  //   });
-  // }
-
-  // customScrollFunction("info", 200);
-  // customScrollFunction("stack", 800);
-  // customScrollFunction("works", 1800);
-  // customScrollFunction("contacts", 3400);
+  function customScrollFunction(top) {
+    document.addEventListener("click", () => {
+      window.scrollTo({
+        top,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+  }
   return (
     <header className="header">
       <div className="header__container container">
@@ -22,22 +18,22 @@ export default function Header() {
           <nav className="header__menu">
             <ul className="header__list">
               <li>
-                <button id="info" className="header__link">
+                <button id="info" onClick={() => customScrollFunction(200)} className="header__link">
                   О себе
                 </button>
               </li>
               <li>
-                <button id="stack" className="header__link">
+                <button id="stack" onClick={() => customScrollFunction(1000)} className="header__link">
                   Стек
                 </button>
               </li>
               <li>
-                <button id="works" className="header__link">
+                <button id="works" onClick={() => customScrollFunction(2000)} className="header__link">
                   Проекты
                 </button>
               </li>
               <li>
-                <button id="contacts" className="header__link">
+                <button id="contacts" onClick={() => customScrollFunction(3400)} className="header__link">
                   Контакты
                 </button>
               </li>

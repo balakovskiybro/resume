@@ -315,8 +315,7 @@ h1 {
 }
 
 .works__items {
-  margin: 0 15px;
-  margin-top: 75px;
+  margin-top: 35px;
 }
 
 .works__item {
@@ -324,7 +323,7 @@ h1 {
   display: grid;
   -ms-grid-columns: 170px 1fr;
   grid-template-columns: 170px 1fr;
-  margin-top: 75px;
+  margin-top: 35px;
 }
 
 .works__img {
@@ -452,6 +451,3 @@ h1 {
   -webkit-text-decoration: underline white 1.25px;
   text-decoration: underline white 1.25px;
 }
-
-
-
