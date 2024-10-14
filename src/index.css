@@ -230,6 +230,7 @@ h1 {
   margin-right: 20px;
   -o-object-fit: cover;
   object-fit: cover;
+  max-width: 400px;
 }
 
 .info__img img {
