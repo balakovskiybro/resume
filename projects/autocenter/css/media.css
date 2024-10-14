@@ -1,0 +1,920 @@
+@media(max-width: 1489px) {
+    .hero__img {
+        max-width: 900px;
+    }
+}
+
+@media(max-width: 1451px) {
+    .hero__img {
+        max-width: 850px;
+    }
+
+    .japan__car {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1408px) {
+
+    .hero__img {
+        max-width: 800px;
+    }
+
+    .info__img {
+        max-width: 1179px;
+    }
+
+    .info__text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .info__wrapper {
+        padding: 50px 100px;
+    }
+
+    .info__white {
+        max-width: 170px;
+    }
+
+    .info__win {
+        bottom: 30px;
+    }
+
+    .cars__img {
+        max-width: 583.5px;
+    }
+
+    .info__wrap {
+        justify-content: normal;
+    }
+
+    .info-white {
+        max-width: 177px;
+    }
+
+    .japan__items {
+        grid-template-columns: repeat(4, minmax(150px, 1fr));
+    }
+
+    .japan__img {
+        max-width: 265px;
+    }
+}
+
+@media(max-width: 1367px) {
+    .hero {
+        padding: 80px 0 80px 60px;
+    }
+
+    .hero__title {
+        font-size: 28px;
+    }
+
+    .hero__info {
+        row-gap: 24px;
+    }
+
+    .hero__container {
+        row-gap: 40px;
+    }
+
+    .info__img {
+        max-width: 1130px;
+    }
+
+    .cars__img {
+        max-width: 560px;
+    }
+
+    .cars__wrapper {
+        min-width: 560px;
+    }
+
+    .cars__button {
+        margin-top: 15px;
+    }
+
+}
+
+@media(max-width: 1331px) {
+    .header__container {
+        grid-template-columns: 200px auto 200px
+    }
+
+    .header__messenger {
+        order: 2;
+    }
+
+    .header__contacts {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__phone {
+        align-items: center;
+    }
+}
+
+@media(max-width:1303px) {
+    .hero__text {
+        font-size: 16px;
+    }
+
+    .hero__img {
+        max-width: 700px;
+    }
+
+    .hero__btn {
+        padding: 18px 28px;
+        font-size: 16px;
+    }
+
+    .cars__container {
+        justify-content: space-between;
+    }
+
+    .cars__wrapper {
+        padding: 20px;
+        min-width: 530px;
+    }
+
+    .cars__img {
+        max-width: 500px;
+    }
+
+    .japan__items {
+        grid-template-columns: repeat(3, minmax(150px, 1fr));
+    }
+
+    .japan__price {
+        justify-content: space-around;
+    }
+
+    .japan__item {
+        margin: 0 auto;
+    }
+
+    .info__img {
+        max-width: 1035px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .contacts {
+        padding: 40px;
+    }
+
+    .contacts__contact {
+        margin-top: 80px;
+    }
+
+    .contacts__link {
+        column-gap: 14px;
+    }
+
+    .form {
+        max-width: 500px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 20px 28px;
+    }
+
+    .japan__btn {
+        padding: 18px 72px;
+    }
+
+    .header__contacts {
+        column-gap: 20px;
+    }
+
+    .info-white {
+        max-width: 137px;
+    }
+
+    .info__wrapper {
+        padding: 45px 80px;
+    }
+}
+
+@media(max-width: 1227px) {
+    .hero__img {
+        max-width: 600px;
+    }
+
+    .info__img {
+        max-width: 979px;
+    }
+
+    .cars__img {
+        max-width: 450px;
+    }
+
+    .cars__wrapper {
+        padding: 10px;
+        min-width: 450px;
+    }
+
+    .cars__subtitle {
+        font-size: 18px;
+    }
+
+    .cars__descr {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1198px) {
+    .info__text {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1158px) {
+    .hero__img {
+        max-width: 550px;
+    }
+
+    .hero__title {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 60px 0 60px 40px;
+    }
+
+    .hero__container {
+        row-gap: 30px;
+    }
+
+    .info__img {
+        max-width: 916px;
+    }
+
+    .contacts__wrapper {
+        flex-direction: column;
+    }
+
+    .form {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .contacts__contact {
+        margin-top: 60px;
+    }
+
+    .header__list {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 1109px) {
+    .info__text br {
+        display: none;
+    }
+
+    .info__win {
+        bottom: 0;
+        margin-top: 10px;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .header__container {
+        grid-template-columns: 200px auto;
+    }
+}
+
+@media(max-width: 1047px) {
+    .hero__img {
+        max-width: 500px;
+    }
+
+    .hero__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero__container {
+        max-width: 403px;
+    }
+
+    .info__img {
+        max-width: 805px;
+    }
+
+    .cars__container {
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    .cars__img {
+        max-width: 700px;
+        max-height: 213.75px;
+    }
+
+    .cars__wrap {
+        padding: 30px;
+    }
+
+    .info__wrapper {
+        padding: 25px 65px;
+    }
+
+    .info__win-list {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 25px;
+    }
+
+    .japan__items {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+
+    .footer__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero__text {
+        line-height: 24px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 980px) {
+    .hero__img {
+        max-width: 450px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 16px 24px;
+    }
+
+    .info__img {
+        max-width: 743px;
+    }
+
+    .container {
+        padding: 0 100px;
+    }
+}
+
+@media(max-width: 932px) {
+    .hero__container {
+        max-width: 303px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .info__wrapper {
+        padding: 15px 55px;
+    }
+
+    .info__wrap {
+        row-gap: 8px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .info__win {
+        margin-top: 25px;
+    }
+
+    .info__img {
+        max-width: 703px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width: 846px) {
+    .info__img {
+        max-width: 603px;
+    }
+
+    .info-white {
+        max-width: 117px;
+    }
+
+    .info__wrapper {
+        padding: 30px 35px;
+    }
+
+    .info__text {
+        font-size: 10px;
+    }
+
+    .info__win-img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .info__win-text {
+        font-size: 10px;
+    }
+
+    .form__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero__img {
+        max-width: 450px;
+    }
+
+    .hero__container {
+        max-width: 253px;
+    }
+
+    .japan__img {
+        max-width: 205px;
+    }
+
+    .japan__button {
+        padding: 6px 14px;
+    }
+
+    .japan__value {
+        align-items: center;
+    }
+
+    .japan__price {
+        gap: 10px;
+    }
+
+    .japan__image {
+        margin: 0 auto
+    }
+
+    .japan__car {
+        font-size: 12px;
+    }
+
+    .info__win-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 774px) {
+    .container {
+        padding: 0 80px;
+    }
+
+    .hero__img {
+        max-width: 400px;
+    }
+
+    .hero {
+        padding: 40px 0 40px 40px;
+    }
+
+    .footer__logo {
+        margin: 20px 0;
+    }
+
+    .footer__info {
+        flex-direction: column;
+    }
+
+    .footer__bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__contacts {
+        margin-top: 25px;
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 739px) {
+    .info__img {
+        max-width: 503px;
+        min-height: 220px;
+    }
+
+    .cars__img {
+        max-width: 503px;
+    }
+
+    .info-white {
+        max-width: 97px;
+    }
+
+    .header__menu {
+        justify-content: end;
+    }
+}
+
+@media(max-width: 711px) {
+    .hero__img {
+        max-width: 350px;
+    }
+
+    .hero__title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header__container {
+        grid-template-columns: 100px auto;
+    }
+
+    .header__img {
+        max-width: 70px;
+        max-height: 56px;
+    }
+}
+
+@media(max-width: 669px) {
+    .container {
+        padding: 0 60px;
+    }
+
+    .hero__img {
+        max-width: 300px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+
+    .info__img {
+        min-height: 220px;
+    }
+
+    .cars__img {
+        max-width: 453px;
+    }
+
+    .cars__wrap {
+        padding: 15px;
+    }
+}
+
+@media(max-width: 619px) {
+    .header {
+        margin-top: 20px;
+    }
+
+    .hero__img {
+        max-width: 375px;
+        right: -20px;
+        top: 140px;
+    }
+
+    .hero__container {
+        max-width: 230px;
+        row-gap: 25px;
+    }
+
+    .header__link {
+        font-size: 8px;
+    }
+
+    .hero__info {
+        row-gap: 12px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .japan {
+        margin-top: 60px;
+    }
+
+    .cars {
+        margin-top: 60px;
+    }
+
+    .info {
+        margin-top: 60px;
+    }
+
+    .info__win-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form__post {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__container {
+        padding: 20px 30px;
+    }
+
+    .cars__img {
+        max-width: 500px;
+    }
+
+    .cars__wrap {
+        padding: 20px;
+    }
+
+    .cars__subtitle {
+        font-size: 18px;
+    }
+
+    .cars__descr {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .cars__button {
+        padding: 0;
+    }
+
+    .cars__btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .info__img {
+        max-width: 500px;
+        min-height: 116px;
+    }
+
+    .info__wrapper {
+        padding: 20px 25px;
+        justify-content: flex-start;
+    }
+
+    .info__win-list {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 15px;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+    .info__text {
+        font-size: 8px;
+        line-height: 14px;
+        max-width: 350px;
+    }
+
+    .contacts__link {
+        flex-direction: column;
+    }
+
+    .contacts__locate {
+        margin-top: 40px;
+    }
+
+    .info-white {
+        max-width: 77px;
+    }
+
+    .footer__car {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 541px) {
+    .info__img {
+        max-width: 450px;
+    }
+
+    .cars__img {
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 472px) {
+    .header__img {
+        max-width: 60px;
+        max-height: 46px;
+    }
+
+    .hero__img {
+        max-width: 275px;
+        right: -20px;
+        top: 120px;
+    }
+
+    .btn {
+        font-size: 8px;
+        padding: 4px 12px;
+    }
+
+    .hero__title {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .hero {
+        padding: 20px 0 20px 25px;
+    }
+
+    .hero__text {
+        font-size: 6px;
+        line-height: 14px;
+    }
+
+    .info__img {
+        max-width: 385px;
+    }
+
+    .footer__contacts {
+        row-gap: 10px;
+    }
+
+    .japan__items {
+        margin-top: 16px;
+    }
+
+    .japan__value {
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .japan__btn {
+        padding: 14px 68px;
+    }
+
+    .japan__descr {
+        font-size: 8px;
+        margin-top: 6px;
+    }
+
+    .japan__car {
+        margin-top: 12px;
+    }
+
+    .japan__button {
+        font-size: 8px;
+    }
+
+    .info__win-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cars__img {
+        max-width: 385px;
+    }
+
+    .cars__wrapper {
+        min-width: 405px;
+        padding: 15px;
+    }
+
+    .cars__wrap {
+        padding: 0px;
+    }
+
+    .info__wrapper {
+        column-gap: 20px;
+        padding: 15px 25px;
+    }
+
+    .info__logo {
+        margin: auto;
+    }
+
+    .japan__img {
+        max-width: 175px;
+    }
+
+    .hero__container {
+        row-gap: 15px;
+        max-width: 160px;
+    }
+}
+
+@media(max-width: 429px) {
+    .cars__img {
+        max-width: 350px;
+    }
+
+    .info__img {
+        max-width: 350px;
+    }
+
+    .cars__subtitle {
+        font-size: 14px;
+    }
+
+    .cars__descr {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .cars__wrapper {
+        padding: 13px
+    }
+
+    .cars__button {
+        margin-top: 10px;
+    }
+
+    .info-white {
+        max-width: 67px;
+    }
+
+    .info__wrapper {
+        padding: 15px 50px 0 15px;
+    }
+
+    .info__text {
+        font-size: 7px;
+        line-height: 13px;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .info__wrapper {
+        padding: 15px 30px 0 15px;
+    }
+
+    .header__link {
+        font-size: 7px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .info__win-text {
+        font-size: 8px;
+    }
+
+    .info__win-list {
+        padding: 18px 16px;
+    }
+
+    .japan__img {
+        max-width: 155px;
+    }
+
+    .japan__car {
+        margin-top: 6px;
+    }
+
+    .japan__descr {
+        font-size: 7px;
+    }
+
+    .japan__car {
+        font-size: 10px;
+    }
+
+    .contacts {
+        margin-top: 60px;
+    }
+
+    .contacts__contact {
+        margin-top: 30px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .hero__img {
+        max-width: 235px;
+        right: -15px;
+    }
+
+    .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .text {
+        margin-top: 8px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .swiper {
+        margin-top: 30px;
+    }
+}

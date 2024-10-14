@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoCenter</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <img class="header__img" src="img/logo.png" alt="">
+            </div>
+            <nav class="header__menu">
+                <!-- Сделал навигацию по странице -->
+                <ul class="header__list">
+                    <li>
+                        <button class="header__link" id="japan">
+                            Авто из Японии
+                        </button>
+                    </li>
+                    <li>
+                        <button class="header__link" id="china">
+                            Авто из Китая
+                        </button>
+                    </li>
+                    <li>
+                        <button class="header__link" id="korea">
+                            Авто из Кореи
+                        </button>
+                    </li>
+                    <li>
+                        <div class="drop">
+                            <button class="drop__btn header__link" onclick="myFunction()"> О нас</button>
+                            <div class="drop-content" id="myDropdown">
+                                <button class="header__link" id="info">Компания</button>
+                                <button class="header__link" id="score">Отзывы</button>
+                                <button class="header__link" id="contacts">Контакты</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <ul class="header__messenger">
+                    <li class="header-item"><a href="" class="header-link header-link-wa"
+                            aria-label="Link to Whatsapp"></a></li>
+                    <li class="header-item"><a href="" class="header-link header-link-tel"
+                            aria-label="Link to Telegram"></a></li>
+                </ul>
+                <div class="header__phone">
+                    <div class="header__num">+7 123 456 78 90</div>
+                    <div class="header__text">Звонок по РФ бесплатный</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__info">
+                        <h2 class="hero__title">Авто из Японии, Кореи и Китая с выгодой до 30% ниже рынка РФ</h2>
+                        <p class="hero__text">Высокий сервис для клиентов, от заключения <br>договора до выдачи/отправки
+                            авто. </p>
+                    </div>
+                    <div class="hero__button">
+                        <button class="hero__btn btn">Рассчитать стоимость</button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img class="hero__img" src="img/cars.webp" alt="">
+                </div>
+            </section>
+            <section class="japan">
+                <h1 class="japan__title title">
+                    Автомобили из Японии
+                </h1>
+                <p class="japan__text text">
+                    Toyota, Honda, Nissan и другие японские автомобили.
+                </p>
+                <div class="japan__items">
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/levorg.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Subaru LEVORG VN5</h3>
+                        <p class="japan__descr">2021 • 1.8 л • 4WD • Бензин • Вариатор</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 115 600 ₽</p>
+                            <div>
+                                <button class="japan__button">Оставить заявку</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/mazda6.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Mazda Mazda6 2.5 AT Touring</h3>
+                        <p class="japan__descr">2020 • 2.5 л • Передний • Бензин • Автомат</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 802 400 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/crown.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Toyota CROWN AZSH21</h3>
+                        <p class="japan__descr">2019 • 2.5 л • 4WD • Гибрид • Планетарная</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 852 600 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/lexus_rc.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Lexus RC F USC10</h3>
+                        <p class="japan__descr">2019 • 5.0 л • Задний • Бензин • Автомат</p>
+                        <div class="japan__price">
+                            <p class="japan__value">5 965 600 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/eclipse.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Mitsubishi ECLIPSE CROSS G...</h3>
+                        <p class="japan__descr">2019 • 1.5 л • Передний • Бензин • Вариатор</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 005 200 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/impeza.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Subaru IMPREZA WRX VAG</h3>
+                        <p class="japan__descr">2018 • 2.0 л • 4WD • Бензин • Вариатор</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 852 600 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/lexus_rx.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Lexus RX200T AGL20W</h3>
+                        <p class="japan__descr">2017 • 2.0 л • Передний • Бензин • Автомат</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 999 800 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="japan__item">
+                        <div class="japan__image">
+                            <img class="japan__img" src="img/cars/outlander.webp" alt="">
+                        </div>
+                        <h3 class="japan__car">Mitsubishi Outlander PHEV G...</h3>
+                        <p class="japan__descr">2013 • 3.0 л • 4WD • Бензин • Автомат</p>
+                        <div class="japan__price">
+                            <p class="japan__value">2 366 200 ₽</p>
+                            <button class="japan__button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="japan__catalog">
+                    <button class="japan__btn">Смотреть все</button>
+                </div>
+            </section>
+            <section class="cars">
+                <h1 class="cars__title title">
+                    Автомобили из Китая и Кореи
+                </h1>
+                <p class="cars__text text">
+                    Поможем с покупкой автомобилей из Китая и Кореи.
+                </p>
+                <div class="cars__container">
+                    <div class="cars__items">
+                        <div class="cars__wrapper">
+                            <div class="cars__wrap">
+                                <div class="cars__item">
+                                    <h4 class="cars__subtitle">Автомобили из Китая</h4>
+                                    <p class="cars__descr">Chery, Haval, EXEED и другие <br> китайские автомобили.</p>
+                                </div>
+                                <div class="cars__button">
+                                    <button class="cars__btn">Смотреть в каталоге</button>
+                                </div>
+                            </div>
+                            <img class="cars__img" src="img/cars/china_car.webp" alt="">
+                        </div>
+
+                    </div>
+                    <div class="cars__items">
+                        <div class="cars__wrapper">
+                            <div class="cars__wrap">
+                                <div class="cars__item">
+                                    <h4 class="cars__subtitle">Автомобили из Кореи</h4>
+                                    <p class="cars__descr">Hyundai, KIA, Genesis и другие <br>корейские автомобили.</p>
+                                </div>
+                                <div class="cars__button">
+                                    <button class="cars__btn">Смотреть в каталоге</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cars__image">
+                            <img class="cars__img" src="img/cars/korea_car.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info">
+                <div class="info__container">
+                    <div class="info__wrapper">
+                        <div class="info__wrap">
+                            <h5>О нас</h5>
+                            <p class="info__text">
+                                Компания «AUTOCENTER» предлагает широкий выбор автомобилей от ведущих мировых
+                                <br>производителей. Мы специализируемся на продаже новых и подержанных авто. Наша
+                                <br>команда профессионалов поможет вам выбрать идеальный автомобиль, учитывая ваши
+                                <br>потребности и бюджет.
+                            </p>
+                        </div>
+                        <div class="info__logo">
+                            <img class="info-white" src="img/logoWhite.png" alt="">
+                        </div>
+                    </div>
+                    <div class="info__image">
+                        <img class="info__img" src="img/autopark.webp" alt="">
+                    </div>
+                </div>
+                <div class="info__win">
+                    <ul class="info__win-list">
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/time.png" alt="">
+                                </div>
+                                <p class="info__win-text">Короткие сроки доставки</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/time2.png" alt="">
+                                </div>
+                                <p class="info__win-text">Полное <br>сопровождение. <br> Связь с клиентом <br>24/7</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/cert.png" alt="">
+                                </div>
+                                <p class="info__win-text">Опыт работы<br> более 5 лет</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/cash.png" alt="">
+                                </div>
+                                <p class="info__win-text">⁠Привезем авто с выгодой до 30% ниже рынка РФ</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/like.png" alt="">
+                                </div>
+                                <p class="info__win-text">Высокий сервис <br>для клиентов</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/love.png" alt="">
+                                </div>
+                                <p class="info__win-text">Полная <br>клиентоориентированность</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info__win-wrap">
+                                <div class="info__win-image">
+                                    <img class="info__win-img" src="img/icon/proffesional.png" alt="">
+                                </div>
+                                <p class="info__win-text">⁠Профессионализм сотрудников компании</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info__button">
+                    <button class="info__btn btn">Рассчитать стоимость</button>
+                </div>
+            </section>
+            <section class="swiper">
+                <h1 class="swiper__title title">Отзывы клиентов <span>253</span></h1>
+                <div class="swiper__score">
+                    <p class="swiper__text title">4,5</p>
+                    <div class="swiper__img">
+                        <img src="img/score.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper__wrap">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/people/Sanya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Olya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Vasya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Nastya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Sanya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Olya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Vasya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Nastya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Olya.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/people/Nastya.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__wrap">
+                        <div class="contacts__info">
+                            <h5>Контактная информация</h5>
+                            <p class="contacts__descr">Оставьте свою заявку и наш менеджер свяжется с Вами для уточнения
+                                деталей.</p>
+                        </div>
+                        <div class="contacts__contact">
+                            <div class="contacts__link">
+                                <ul class="contacts__list">
+                                    <li>
+                                        <p class="contacts__text">Позвонить</p>
+                                        <p class="contacts__communication">+7 123 456 78 90</p>
+                                    </li>
+                                    <li>
+                                        <p class="contacts__text">Написать</p>
+                                        <p class="contacts__communication">info@example.com</p>
+                                    </li>
+                                    <li>
+                                        <p class="contacts__text">Адрес</p>
+                                        <p class="contacts__communication">123 Main Street, Tokyo, Japan</p>
+                                    </li>
+                                </ul>
+                                <ul class="contacts__locate">
+                                    <li>
+                                        <div class="contacts__image">
+                                            <img class="contacts__img" src="img/icon/2gis.png" alt="">
+                                        </div>
+                                        <button class="contacts__button">Мы на 2гис</button>
+                                    </li>
+                                    <li>
+                                        <div class="contacts__image">
+                                            <img class="contacts__img" src="img/icon/ya.png" alt="">
+                                        </div>
+                                        <button class="contacts__button">Мы на Яндекс картах</button>
+                                    </li>
+                                    <li>
+                                        <div class="contacts__image">
+                                            <img class="contacts__img" src="img/icon/vl.png" alt="">
+                                        </div>
+                                        <button class="contacts__button">VL справочник</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <h1 class="form__title title">Оставить заявку</h1>
+                        <form action="" id="form" method="post" class="form__form">
+                            <div class="form__wrap">
+                                <div class="form__data">
+                                    <label for="name" class="form__text">Имя</label>
+                                    <input type="text" name="name" class="form__input" id="name"
+                                        placeholder="Введите имя">
+                                </div>
+                                <div class="form__data">
+                                    <label for="tel" class="form__tel">Телефон <span>(Обязательно)</span></label>
+                                    <input type="tel" name="tel" id="tel" class="form__input" maxlength="12"
+                                        placeholder="+7">
+                                </div>
+                            </div>
+                            <div class="form__question">
+                                <label for="quest" class="form__text">Уточните свой вопрос</label>
+                                <input type="text" name="quest" id="quest" class="form__input"
+                                    placeholder="Введите текст сообщения">
+                            </div>
+                            <div class="form__post">
+                                <div class="form__send">
+                                    <input type="checkbox" class="form__check" name="checkbox" id="checkbox">
+                                    <label class="form__text" for="checkbox">С <span>правилами политики
+                                            конфиденциальности</span> ознакомлен</label>
+                                </div>
+                                <button type="submit" id="submit" class="form__submit">Отправить</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <img class="footer__img" src="img/logoMini.png" alt="">
+                    </div>
+                    <div class="footer__descr">
+                        <p>О нас</p>
+                        <p>Каталог авто</p>
+                    </div>
+                </div>
+                <div class="footer__cars">
+                    <ul class="footer__list">
+                        <li>
+                            <h6 class="footer__subtitle">Авто из Японии</h6>
+                            <ul class="footer__link">
+                                <li>
+                                    <button class="footer__car">Toyota</button>
+                                </li>
+
+                                <li>
+                                    <button class="footer__car">Nissan</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Honda</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Mazda</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Mitsubishi</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Subaru</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Suzuki</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Lexus</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">BMW</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Daihatsu</button>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6 class="footer__subtitle">Авто из Японии</h6>
+                            <ul class="footer__link">
+                                <li>
+                                    <button class="footer__car">Changan</button>
+                                </li>
+
+                                <li>
+                                    <button class="footer__car">Exeed</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Geely</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Chery</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Haval</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">FAW</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">BYD</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">JAC</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Lifan</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">DongFeng</button>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6 class="footer__subtitle">Авто из Кореи</h6>
+                            <ul class="footer__link">
+                                <li>
+                                    <button class="footer__car">Hyundai</button>
+                                </li>
+
+                                <li>
+                                    <button class="footer__car">SsangYong</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">KIA</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Daewoo</button>
+                                </li>
+                                <li>
+                                    <button class="footer__car">Samsung</button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__cars"></div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__privacy">
+                    <p>Политика конфиденциальности</p>
+                    <p>© 2003–2024 ООО "Автоцентр"</p>
+                </div>
+                <div class="footer__contacts">
+                    <ul class="footer__messenger">
+                        <li><a href="" class="footer-link footer-link-wa" aria-label="Link to Whatsapp"></a></li>
+                        <li><a href="" class="footer-link footer-link-tel" aria-label="Link to Telegram"></a></li>
+                        <li><a href="" class="footer-link footer-link-youtu" aria-label="Link to Youtube"></a></li>
+                    </ul>
+                    <div class="footer__phone">
+                        <div class="footer__num">+7 123 456 78 90</div>
+                        <div class="footer__text">Звонок по РФ бесплатный</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

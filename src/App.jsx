@@ -6,7 +6,7 @@ import { useState } from "react"
 import TabsSection from "./components/TabsSection"
 import Work from "./components/work/Work"
 import Project from "./components/work/Project"
-import Auto from "./components/work/AutoCenter"
+import Auto from "./components/work/Auto"
 
 export default function App() {
   const [tab, setTab] = useState('auto')
