@@ -6,7 +6,7 @@ import { useState } from "react"
 import TabsSection from "./components/TabsSection"
 import Work from "./components/work/Work"
 import Project from "./components/work/Project"
-import AutoCenter from "./components/work/AutoCenter"
+import Auto from "./components/work/AutoCenter"
 
 export default function App() {
   const [tab, setTab] = useState('auto')
@@ -26,7 +26,7 @@ export default function App() {
                 <div className="works__items">
 
                   <TabsSection active={tab} onChange={(current) => setTab(current)} />
-                  {tab === 'auto' && (<AutoCenter />)}
+                  {tab === 'auto' && (<Auto />)}
                   {tab === 'main' && (<Work />)}
                   {tab === 'back' && (<Project />)}
 

@@ -1,9 +1,9 @@
-import autocenter from '/AutoCenter.png'
+import auto from '/AutoCenter.png'
 
-export default function AutoCenter() {
+export default function Auto() {
   return (
     <div className="works__item">
-      <a href="resume/projects/AutoCenter/index.html" target="_blank"><img src={autocenter} className="works__img" alt="" /></a>
+      <a href="resume/projects/auto/index.html" target="_blank"><img src={auto} className="works__img" alt="" /></a>
       <div className="works__body">
         <h5 className="works__subtitle">Цель:</h5>
         <p className="works__text">
