@@ -424,11 +424,11 @@ h1 {
 }
 
 .footer-link-tel {
-  background-image: url("/telegram.png");
+  background-image: url("/telegram.webp");
 }
 
 .footer-link-vk {
-  background-image: url("/vk.png");
+  background-image: url("/vk.webp");
 }
 
 .footer-link:hover {

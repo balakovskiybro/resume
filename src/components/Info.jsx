@@ -1,4 +1,4 @@
-import face from "/Oleg.jpg"
+import face from "/Oleg.webp"
 
 export default function Info() {
   return (
@@ -16,10 +16,10 @@ export default function Info() {
             направлению
             программная инженерия. В течение двух лет я оттачивал свои навыки веб-разработчика, изучая, как
             создавать
-            веб-приложения с использованием <span className="white__line">HTML</span> / <span
-              className="white__line">CSS</span> /
-            <span className="white__line">JavaScript</span> / <span
-              className="white__line">React</span>.
+            веб-приложения с использованием <span className="white__line">React</span> / <span
+              className="white__line">JavaScript</span> /
+            <span className="white__line">CSS</span> / <span
+              className="white__line">HTML</span>.
           </p>
         </div>
       </div>
